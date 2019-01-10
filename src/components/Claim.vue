@@ -22,6 +22,8 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  color: #fff;
 }
 .claim {
   font-size: 50px;
@@ -30,6 +32,24 @@ export default {
 .subclaim {
   font-size: 13px;
   margin: 20px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .claim {
+    font-size: 80px;
+  }
+
+  .subclaim {
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .claim {
+    font-weight: 600;
+  }
 }
 </style>
 
